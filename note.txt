@@ -1,0 +1,31 @@
+ virtualenv:
+ 
+Clear Windows Terminal:
+	cls
+
+Create Virtual environment:
+	pip install virtualenv
+
+Then Goto Project Folder & Run
+	virtualenv nameOfVirtualenv
+
+Then Inter nameOfVirtualenv
+	cd nameOfVirtualenv
+
+Then Enter Scripts For Windows:
+	cd Scripts
+
+Then Active/Deactive virtualenv:
+	activate/d+Tab
+
+
+
+##########################################################################
+install all packege django project
+    pip install -r requirements.txt
+
+package list:
+    pip list
+
+run project:
+    uvicorn main:app --reload
